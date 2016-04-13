@@ -11,9 +11,16 @@
 	<!-- Bootstrap -->
 	<link href="css/bootstrap.min.css" rel="stylesheet">
 	<link href="css/site.css" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="about.css">
 
 </head>
 <body>
+
+	<!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+    <!-- Include all compiled plugins (below), or include individual files as needed -->
+    <script src="js/bootstrap.min.js"></script>
+
 	<nav class="navbar navbar-default">
 	  <div class="container-fluid">
 		<!-- Brand and toggle get grouped for better mobile display -->
@@ -40,15 +47,47 @@
 	  </div><!-- /.container-fluid -->
 	</nav>
 
+<div class="container">
+<body>
+<button class="drop">Dillon Thomas</button>
+<div class="panel">
+  <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas pharetra posuere dolor sit amet maximus. Cras placerat libero sit amet semper porttitor. Cras ac purus vel urna vulputate vulputate. Duis vel sollicitudin augue. Mauris sodales quis turpis ac tempor. Proin mollis nisi nibh, vel suscipit justo elementum in. Aliquam pharetra risus convallis ultrices mattis. Aenean vestibulum, arcu in volutpat tincidunt, nunc tellus tempor magna, nec maximus neque felis quis est.
 
+Morbi vitae vestibulum elit, non rutrum quam. Maecenas in condimentum dolor. Cras sodales vulputate enim, eget pharetra massa consequat sed. Proin a massa odio. In quam sapien, aliquet ornare felis in, posuere posuere mauris. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Aenean vulputate tincidunt sapien sit amet convallis. Vestibulum vitae congue ex. Praesent condimentum mi in varius facilisis. Nam auctor, nibh ac convallis molestie, eros sapien ornare velit, facilisis commodo eros justo et mauris. Fusce in purus sit amet urna iaculis vehicula in non nisl. Nulla eget maximus tortor. Sed ut justo eget nulla egestas sodales non eu velit. Sed imperdiet euismod tellus at venenatis. Pellentesque quam nisi, iaculis quis ex quis, posuere maximus enim.</p>
+</div>
+
+<button class="drop">Laura Paganini</button>
+<div class="panel">
+  <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas pharetra posuere dolor sit amet maximus. Cras placerat libero sit amet semper porttitor. Cras ac purus vel urna vulputate vulputate. Duis vel sollicitudin augue. Mauris sodales quis turpis ac tempor. Proin mollis nisi nibh, vel suscipit justo elementum in. Aliquam pharetra risus convallis ultrices mattis. Aenean vestibulum, arcu in volutpat tincidunt, nunc tellus tempor magna, nec maximus neque felis quis est.
+
+Morbi vitae vestibulum elit, non rutrum quam. Maecenas in condimentum dolor. Cras sodales vulputate enim, eget pharetra massa consequat sed. Proin a massa odio. In quam sapien, aliquet ornare felis in, posuere posuere mauris. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Aenean vulputate tincidunt sapien sit amet convallis. Vestibulum vitae congue ex. Praesent condimentum mi in varius facilisis. Nam auctor, nibh ac convallis molestie, eros sapien ornare velit, facilisis commodo eros justo et mauris. Fusce in purus sit amet urna iaculis vehicula in non nisl. Nulla eget maximus tortor. Sed ut justo eget nulla egestas sodales non eu velit. Sed imperdiet euismod tellus at venenatis. Pellentesque quam nisi, iaculis quis ex quis, posuere maximus enim.</p>
+</div>
+
+<button class="drop">Anna Brunting</button>
+<div class="panel">
+  <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas pharetra posuere dolor sit amet maximus. Cras placerat libero sit amet semper porttitor. Cras ac purus vel urna vulputate vulputate. Duis vel sollicitudin augue. Mauris sodales quis turpis ac tempor. Proin mollis nisi nibh, vel suscipit justo elementum in. Aliquam pharetra risus convallis ultrices mattis. Aenean vestibulum, arcu in volutpat tincidunt, nunc tellus tempor magna, nec maximus neque felis quis est.
+
+Morbi vitae vestibulum elit, non rutrum quam. Maecenas in condimentum dolor. Cras sodales vulputate enim, eget pharetra massa consequat sed. Proin a massa odio. In quam sapien, aliquet ornare felis in, posuere posuere mauris. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Aenean vulputate tincidunt sapien sit amet convallis. Vestibulum vitae congue ex. Praesent condimentum mi in varius facilisis. Nam auctor, nibh ac convallis molestie, eros sapien ornare velit, facilisis commodo eros justo et mauris. Fusce in purus sit amet urna iaculis vehicula in non nisl. Nulla eget maximus tortor. Sed ut justo eget nulla egestas sodales non eu velit. Sed imperdiet euismod tellus at venenatis. Pellentesque quam nisi, iaculis quis ex quis, posuere maximus enim.</p>
+ 
+<script>
+
+var acc = document.getElementsByClassName("drop");
+var i;
+
+for (i = 0; i < acc.length; i++) {
+    acc[i].onclick = function(){
+        this.classList.toggle("active");
+        this.nextElementSibling.classList.toggle("show");
+    }
+}
+
+</script>
+</div>
 	
 	
 	
 	
-	<!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
-    <!-- Include all compiled plugins (below), or include individual files as needed -->
-    <script src="js/bootstrap.min.js"></script>
+	
 
 
 </body>
