@@ -1,0 +1,21 @@
+body{
+	background-color: #99CCCC;
+	
+}
+
+
+.container{
+	margin: auto;
+	margin-bottom:20px;
+	background-color: #B1E5A9;
+	padding: 15px;
+	border-style: solid;
+	border-color: white;
+	
+	
+	
+}
+
+footer{
+		margin-left:10%;
+	}
