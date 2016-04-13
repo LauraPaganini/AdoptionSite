@@ -69,7 +69,7 @@
 		
 		<div id = "form-container">
 		<form>
-		  <fieldset class="form-group">
+		  <fieldset class="form-group" id="name-field">
 			<label for="name">Name</label>
 			<input type="text" class="form-control" id="name" placeholder="Your Name" required>
 		  </fieldset>
@@ -111,12 +111,12 @@
 	$("#name").on("focusout", function(){
 		var regex = /^[A-za-z]+$/;
 		if(!regex.test($(this).val()))
-			$("#name").parent.addClass("has-error");
+		//	$("#name").parent.addClass("has-error");
 			//alert("boop");
 		//else
 			//$("#name").css("display", "none");
 	});
-	
+	$("#name-field").addClass("has-error");
 	</script>
 	
 	
