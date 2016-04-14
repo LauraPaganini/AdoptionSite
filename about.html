@@ -6,13 +6,13 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
 	
-	<title>Home</title>
+	<title>About Us</title>
 	
 	<!-- Bootstrap -->
 	<link href="css/bootstrap.min.css" rel="stylesheet">
 	<link href="css/site.css" rel="stylesheet">
-    <link rel="stylesheet" type="text/css" href="about.css">
-
+   
+	
 </head>
 <body>
 
@@ -31,7 +31,7 @@
 			<span class="icon-bar"></span>
 			<span class="icon-bar"></span>
 		  </button>
-		  <a class="navbar-brand" href="#">Brand</a>
+		  <a class="navbar-brand" href="index.html">Brand</a>
 		</div>
 
 		<!-- Collect the nav links, forms, and other content for toggling -->
@@ -47,44 +47,46 @@
 	  </div><!-- /.container-fluid -->
 	</nav>
 
-<div class="container">
-<body>
-<button class="drop">Dillon Thomas</button>
-<div class="panel">
-  <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas pharetra posuere dolor sit amet maximus. Cras placerat libero sit amet semper porttitor. Cras ac purus vel urna vulputate vulputate. Duis vel sollicitudin augue. Mauris sodales quis turpis ac tempor. Proin mollis nisi nibh, vel suscipit justo elementum in. Aliquam pharetra risus convallis ultrices mattis. Aenean vestibulum, arcu in volutpat tincidunt, nunc tellus tempor magna, nec maximus neque felis quis est.
 
-Morbi vitae vestibulum elit, non rutrum quam. Maecenas in condimentum dolor. Cras sodales vulputate enim, eget pharetra massa consequat sed. Proin a massa odio. In quam sapien, aliquet ornare felis in, posuere posuere mauris. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Aenean vulputate tincidunt sapien sit amet convallis. Vestibulum vitae congue ex. Praesent condimentum mi in varius facilisis. Nam auctor, nibh ac convallis molestie, eros sapien ornare velit, facilisis commodo eros justo et mauris. Fusce in purus sit amet urna iaculis vehicula in non nisl. Nulla eget maximus tortor. Sed ut justo eget nulla egestas sodales non eu velit. Sed imperdiet euismod tellus at venenatis. Pellentesque quam nisi, iaculis quis ex quis, posuere maximus enim.</p>
-</div>
-<br><br>
-<button class="drop">Laura Paganini</button>
-<div class="panel">
-  <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas pharetra posuere dolor sit amet maximus. Cras placerat libero sit amet semper porttitor. Cras ac purus vel urna vulputate vulputate. Duis vel sollicitudin augue. Mauris sodales quis turpis ac tempor. Proin mollis nisi nibh, vel suscipit justo elementum in. Aliquam pharetra risus convallis ultrices mattis. Aenean vestibulum, arcu in volutpat tincidunt, nunc tellus tempor magna, nec maximus neque felis quis est.
+	<div class="container">
+		<h1>Meet our team!</h1>
+		<div class="row">
+			<div class="col-md-4">
+				<button class="btn btn-primary"  data-toggle="collapse" data-target="#collapseDillon">Dillon Thomas</button>
+				<div  class="collapse" id="collapseDillon">
+					<div class="well">
+					Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas pharetra posuere dolor sit amet maximus. Cras placerat libero sit amet semper porttitor. Cras ac purus vel urna vulputate vulputate. Duis vel sollicitudin augue. Mauris sodales quis turpis ac tempor. Proin mollis nisi nibh, vel suscipit justo elementum in. Aliquam pharetra risus convallis ultrices mattis. Aenean vestibulum, arcu in volutpat tincidunt, nunc tellus tempor magna, nec maximus neque felis quis est.				
+					</div>
+				</div>
+			</div>
+			
+			<div class="col-md-4">
+				<button class="btn btn-primary"  data-toggle="collapse" data-target="#collapseLaura" >Laura Paganini</button>
+				<div  class="collapse" id="collapseLaura">
+					<div class="well">
+						Laura Paganini is a sophomore at Miami University studying Software Engineering with a minor in Interactive Media Studies. Her hobbies include performing in the MUMB color guard, 3D modeling and animation, and cross stitching.  
+					</div>
+				</div>
+			</div>
 
-Morbi vitae vestibulum elit, non rutrum quam. Maecenas in condimentum dolor. Cras sodales vulputate enim, eget pharetra massa consequat sed. Proin a massa odio. In quam sapien, aliquet ornare felis in, posuere posuere mauris. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Aenean vulputate tincidunt sapien sit amet convallis. Vestibulum vitae congue ex. Praesent condimentum mi in varius facilisis. Nam auctor, nibh ac convallis molestie, eros sapien ornare velit, facilisis commodo eros justo et mauris. Fusce in purus sit amet urna iaculis vehicula in non nisl. Nulla eget maximus tortor. Sed ut justo eget nulla egestas sodales non eu velit. Sed imperdiet euismod tellus at venenatis. Pellentesque quam nisi, iaculis quis ex quis, posuere maximus enim.</p>
-</div>
-<br><br>
-<button class="drop">Anna Bunting</button>
-<div class="panel">
-  <p><img src=""></p>
-  <p>Hello! I am a junior Interactive Media Studies Major, specializing in Interactive Business and minoring in Management. After gradution in December of 2016, I plan to work in the Event Planning industry doing a few of my favorite things: web design, social media, marketing, and graphic design. In my free time, you can find me pinning on Pinterest, playing with my dogs, or watching Whose Line Is It Anyway.</p>
- 
-<script>
-
-var acc = document.getElementsByClassName("drop");
-var i;
-
-for (i = 0; i < acc.length; i++) {
-    acc[i].onclick = function(){
-        this.classList.toggle("active");
-        this.nextElementSibling.classList.toggle("show");
-    }
-}
-
-</script>
-</div>
+			<div class="col-md-4">
+				<button class="btn btn-primary"  data-toggle="collapse" data-target="#collapseAnna" >Anna Brunting</button>
+				<div  class="collapse" id="collapseAnna">
+					<div class="well">
+					Hello! I am a junior Interactive Media Studies Major, specializing in Interactive Business and minoring in Management. After gradution in December of 2016, I plan to work in the Event Planning industry doing a few of my favorite things: web design, social media, marketing, and graphic design. In my free time, you can find me pinning on Pinterest, playing with my dogs, or watching Whose Line Is It Anyway.</p>
+					</div>
+				</div>
+			</div>
+		</div>
+		
+	</div>
 	
-	
-	
+	<footer>
+		<p>Site Name &copy; 2016 IMS 257 Final Project</p>
+		<p>Laura Paganini</p>
+		<p>Anna Brunting</p>
+		<p>Dillon Thomas</p>
+	</footer>
 	
 	
 
