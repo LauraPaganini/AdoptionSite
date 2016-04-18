@@ -18,26 +18,15 @@
     <script src="js/bootstrap.min.js"></script>
 
 	<style>
-		div.img {
-			margin: 5px;
-			border: 1.5px solid white;
-			float: left;
-			width: 180px;
-		}	
+	.thumbnail{
+		margin:2%;
+		height:400px;
+	}
 
-		div.img:hover {
-			border: 1px solid #777;
-		}
-
-		div.img img {
-			width: 100%;
-			height: auto;
-		}
-
-		div.desc {
-			padding: 15px;
-			text-align: center;
-		}
+	.nav-stacked{
+		background-color:white;
+	}
+	
 	</style>
 	
 	
@@ -73,93 +62,119 @@
 	</nav>
 
 	<div class="container">
-	<div class="row">
-		<div class="col-md-3">
-		<ul class="nav nav-pills nav-stacked">
-		  <li role="presentation"><a href="#">Dogs</a></li>
-		  <li role="presentation"><a href="#">Cats</a></li>
-		  <li role="presentation"><a href="#">Other</a></li>
-		</ul>
-		</div>
+	
+		<h1 class="page-header">Gallery</h1>
+	
+		<div class="row">
+			<div class="col-md-3">
+				<ul class="nav nav-pills nav-stacked" data-spy="affix">
+				  <li role="presentation"><a href="#dogs">Dogs</a></li>
+				  <li role="presentation"><a href="#cats">Cats</a></li>
+				  <li role="presentation"><a href="#other">Other</a></li>
+				</ul>
+			</div>
 
 
-	<div class="col-md-9">
-		
-        <div class="img">
-		  <a target="_blank" href="pictures/dog4.jpg">
-			<img src="pictures/dog4.jpg" alt="Small dog big ears" width="300" height="200">
-		  </a>
-		  <div class="desc">Joey</div>
-		</div>
-		
-        <div class="img">
-		  <a target="_blank" href="pictures/cat1.jpg">
-			<img src="pictures/cat1.jpg" alt="Cat behind cage" width="600" height="400">
-		  </a>
-		  <div class="desc">Alexa</div>
-		</div>
+		<div class="col-md-9">
+			
+			<div class="row">
+				<a name="dogs"></a>
+			
+				<div class="col-lg-3 col-md-4 col-xs-6 thumbnail">
+					<img class="img-responsive" src="pictures/dog4.jpg">
+					<div class="caption">
+						<h3>Joey</h3>
+						<p>...</p>
+						<a href="contact.html" class="btn btn-primary" role="button">Adopt him!</a> 
+					</div>
+				</div>
+				<div class="col-lg-3 col-md-4 col-xs-6 thumbnail">
+					<img class="img-responsive" src="pictures/dog1.jpg">
+					<div class="caption">
+						<h3>Fido</h3>
+						<p>...</p>
+						<a href="contact.html" class="btn btn-primary" role="button">Adopt him!</a> 
+					</div>
+				</div>
+				<div class="col-lg-3 col-md-4 col-xs-6 thumbnail">
+					<img class="img-responsive" src="pictures/dog3.jpg">
+					<div class="caption">
+						<h3>Snoopy</h3>
+						<p>...</p>
+						<a href="contact.html" class="btn btn-primary" role="button">Adopt him!</a> 
+					</div>
+				</div>
+				<div class="col-lg-3 col-md-4 col-xs-6 thumbnail">
+					<img class="img-responsive" src="pictures/dog2.jpg">
+					<div class="caption">
+						<h3>Lucky</h3>
+						<p>...</p>
+						<a href="contact.html" class="btn btn-primary" role="button">Adopt him!</a> 
+					</div>
+				</div>
+				
+				<a name="cats"></a>
+				
+				<div class="col-lg-3 col-md-4 col-xs-6 thumbnail">
+					<img class="img-responsive" src="pictures/cat2.jpg">
+					<div class="caption">
+						<h3>Misty</h3>
+						<p>...</p>
+						<a href="contact.html" class="btn btn-primary" role="button">Adopt her!</a> 
+					</div>
+				</div>
+				<div class="col-lg-3 col-md-4 col-xs-6 thumbnail">
+					<img class="img-responsive" src="pictures/cat3.jpg">
+					<div class="caption">
+						<h3>Freckles</h3>
+						<p>...</p>
+						<a href="contact.html" class="btn btn-primary" role="button">Adopt her!</a> 
+					</div>
+				</div>
+				<div class="col-lg-3 col-md-4 col-xs-6 thumbnail">
+					<img class="img-responsive" src="pictures/cat1.jpg">
+					<div class="caption">
+						<h3>Alexa</h3>
+						<p>...</p>
+						<a href="contact.html" class="btn btn-primary" role="button">Adopt her!</a> 
+					</div>
+				</div>
+				
+				<a name="other"></a>
+				
+				<div class="col-lg-3 col-md-4 col-xs-6 thumbnail">
+					<img class="img-responsive" src="pictures/rabbit.jpg">
+					<div class="caption">
+						<h3>Rodger</h3>
+						<p>...</p>
+						<a href="contact.html" class="btn btn-primary" role="button">Adopt him!</a> 
+					</div>
+				</div>
+				<div class="col-lg-3 col-md-4 col-xs-6 thumbnail">
+					<img class="img-responsive" src="pictures/chinchilla.jpg">
+					<div class="caption">
+						<h3>Fluffy</h3>
+						<p>...</p>
+						<a href="contact.html" class="btn btn-primary" role="button">Adopt her!</a> 
+					</div>
+				</div>
+				<div class="col-lg-3 col-md-4 col-xs-6 thumbnail">
+					<img class="img-responsive" src="pictures/hedgehog.jpg">
+					<div class="caption">
+						<h3>Obi</h3>
+						<p>...</p>
+						<a href="contact.html" class="btn btn-primary" role="button">Adopt him!</a> 
+					</div>
+				</div>
+				
+				</div>
+			</div>
 
-		<div class="img">
-		  <a target="_blank" href="pictures/chinchilla.jpg">
-			<img src="pictures/chinchilla.jpg" alt="Chinchilla" width="600" height="400">
-		  </a>
-		  <div class="desc">Fluffy</div>
-		</div>
-
-		<div class="img">
-		  <a target="_blank" href="pictures/dog1.jpg">
-			<img src="pictures/dog1.jpg" alt="Dog behind cage" width="600" height="400">
-		  </a>
-		  <div class="desc">Fido</div>
-		</div>
-        
-        <div class="img">
-		  <a target="_blank" href="pictures/rabbit.jpg">
-			<img src="pictures/rabbit.jpg" alt="Rabbit" width="600" height="400">
-		  </a>
-		  <div class="desc">Roger</div>
-		</div>
-       
-        <div class="img">
-		  <a target="_blank" href="pictures/cat2.jpg">
-			<img src="pictures/cat2.jpg" alt="Grey and White cat" width="600" height="400">
-		  </a>
-		  <div class="desc">Misty</div>
-		</div>
-       
-        <div class="img">
-		  <a target="_blank" href="pictures/dog2.jpg">
-			<img src="pictures/dog2.jpg" alt="Dog behind cage for adoption" width="600" height="400">
-		  </a>
-		  <div class="desc">Lucky</div>
-		</div>
-        
-        <div class="img">
-		  <a target="_blank" href="pictures/hedgehog.jpg">
-			<img src="pictures/hedgehog.jpg" alt="Hedgehog" width="600" height="400">
-		  </a>
-		  <div class="desc">Obi</div>
-		</div>
-       
-        <div class="img">
-		  <a target="_blank" href="pictures/dog3.jpg">
-			<img src="pictures/dog3.jpg" alt="Beagle Mix" width="600" height="400">
-		  </a>
-		  <div class="desc">Snoopy</div>
-		</div>
-        
-        <div class="img">
-		  <a target="_blank" href="pictures/cat3.jpg">
-			<img src="pictures/cat3.jpg" alt="Cat named Freckles" width="600" height="400">
-		  </a>
-		  <div class="desc">Freckles</div>
 		</div>
 	
-    </div>
-		
 	</div>
-
-	</div>
+	
+	
 	<footer>
 		<p>Site Name &copy; 2016 IMS 257 Final Project</p>
 		<p>Laura Paganini</p>
