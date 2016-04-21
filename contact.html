@@ -68,34 +68,40 @@
 		<h1>Want to give an animal a forever home?</h1>
 		<h3>Enter your information here to begin your application.</h3>
 		
-		<div id = "form-container">
-		<form>
-		  <fieldset class="form-group">
-			<label for="name">Name</label>
-			<input type="text" class="form-control" id="name" placeholder="Your Name" required>
-		  </fieldset>
-		  <fieldset class="form-group">
-			<label for="email">Email</label>
-			<input type="text" class="form-control" id="email" placeholder="Your Email" required>
-		  </fieldset>
-		  <fieldset class="form-group">
-			<label for="phone">Phone Number (XXX-XXX-XXXX)</label>
-			<input type="text" class="form-control" id="phone" placeholder="Your Phone" required>
-		  </fieldset>
-		  <fieldset class="form-group">
-		  <label for="species">Species of desired pet</label>
-			  <select class="form-control" id="species">
-				  <option>Dog</option>
-				  <option>Cat</option>
-				  <option>Other</option>
-			  </select>
-		  </fieldset>
-		  <fieldset class="form-group">
-			<label for="pet-name">Pet's Name</label>
-			<input type="text" class="form-control" id="pet-name" placeholder="Pet's Name" required>
-		  </fieldset>
-		  <button type="submit" class="btn btn-default">Submit</button>
-		</form>
+		
+		<div id="row">
+			<div id = "form-container" class="col-md-8">
+			<form>
+			  <fieldset class="form-group">
+				<label for="name">Name</label>
+				<input type="text" class="form-control" id="name" placeholder="Your Name" required>
+			  </fieldset>
+			  <fieldset class="form-group">
+				<label for="email">Email</label>
+				<input type="text" class="form-control" id="email" placeholder="Your Email" required>
+			  </fieldset>
+			  <fieldset class="form-group">
+				<label for="phone">Phone Number (XXX-XXX-XXXX)</label>
+				<input type="text" class="form-control" id="phone" placeholder="Your Phone" required>
+			  </fieldset>
+			  <fieldset class="form-group">
+			  <label for="species">Species of desired pet</label>
+				  <select class="form-control" id="species">
+					  <option>Dog</option>
+					  <option>Cat</option>
+					  <option>Other</option>
+				  </select>
+			  </fieldset>
+			  <fieldset class="form-group">
+				<label for="pet-name">Pet's Name</label>
+				<input type="text" class="form-control" id="pet-name" placeholder="Pet's Name" required>
+			  </fieldset>
+			  <button type="submit" class="btn btn-default">Submit</button>
+			</form>
+			</div>
+			<div class="col-md-4">
+				<img src="pictures/dog-adoption.jpg">
+			</div>
 		</div>
 	</div>
 	
