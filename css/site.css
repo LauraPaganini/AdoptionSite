@@ -1,8 +1,6 @@
 body{
-	background-color: #99CCCC;
-	
+	background-color: #99CCCC;	
 }
-
 
 .container{
 	margin: auto;
@@ -11,11 +9,16 @@ body{
 	padding: 15px;
 	border-style: solid;
 	border-color: white;
-	
-	
-	
 }
 
 footer{
 		margin-left:10%;
-	}
+}
+
+.logo{
+	height:50px;
+}
+
+.navbar-header{
+	margin:0;
+}
